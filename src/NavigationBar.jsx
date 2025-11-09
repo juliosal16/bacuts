@@ -25,12 +25,12 @@ const NavigationBar = () => {
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll>
-            <Nav.Link href="bacuts/bay_area_cuts/ourMission">About</Nav.Link>
-            <Nav.Link href="bacuts/bay_area_cuts/pricing">Pricing</Nav.Link>
-            <Nav.Link href="bacuts/bay_area_cuts/barbers">Barbers</Nav.Link>
-            <Nav.Link href="bacuts/bay_area_cuts/contact">Contact</Nav.Link>
+            <Nav.Link to="bacuts/bay_area_cuts/ourMission">About</Nav.Link>
+            <Nav.Link to="bacuts/bay_area_cuts/pricing">Pricing</Nav.Link>
+            <Nav.Link to="bacuts/bay_area_cuts/barbers">Barbers</Nav.Link>
+            <Nav.Link to="bacuts/bay_area_cuts/contact">Contact</Nav.Link>
           </Nav>
-          <Nav.Link href="bacuts/bay_area_cuts/bookNow"><Button className='bookBtn' variant="outline-success">Book Now</Button></Nav.Link>
+          <Nav.Link to="bacuts/bay_area_cuts/bookNow"><Button className='bookBtn' variant="outline-success">Book Now</Button></Nav.Link>
 
 
         </Navbar.Collapse>

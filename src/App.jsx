@@ -18,13 +18,13 @@ function App() {
     <>
       <NavigationBar />
       <Routes>
-        <Route path='/bay_area_cuts/about' element={<About />} />
-        <Route path='/bay_area_cuts/ourMission' element={<OurMission />} />
-        <Route path='/bay_area_cuts/barbers' element={<Barbers />} />
-        <Route path='/bay_area_cuts/pricing' element={<Pricing />} />
-        <Route path='/bay_area_cuts/contact' element={<Contact />} />
-        <Route path='/bay_area_cuts/' element={<Home />} />
-        <Route path='/bay_area_cuts/bookNow' element={<BookNow />} />
+        <Route path='/bacuts/bay_area_cuts/about' element={<About />} />
+        <Route path='/bacuts/bay_area_cuts/ourMission' element={<OurMission />} />
+        <Route path='/bacuts/bay_area_cuts/barbers' element={<Barbers />} />
+        <Route path='/bacuts/bay_area_cuts/pricing' element={<Pricing />} />
+        <Route path='/bacuts/bay_area_cuts/contact' element={<Contact />} />
+        <Route path='/bacuts/bay_area_cuts/' element={<Home />} />
+        <Route path='/bacuts/bay_area_cuts/bookNow' element={<BookNow />} />
 
       </Routes>
       <ShopInfo />

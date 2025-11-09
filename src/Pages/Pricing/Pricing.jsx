@@ -15,7 +15,7 @@ const Pricing = () => {
       <p> Head Shave + Beard Trim  -  $70</p>
       <p>Full Service  -  Haircut + hot towel shave 60-75 minute service  -  $75</p>
       <p>Kids Haircut  -  Ages 0-12 Classic style  -  $30</p>
-      <hr className='bottomHr'/>
+      <hr className='bottomHr' />
     </div>
   )
 }
